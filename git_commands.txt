@@ -1,0 +1,95 @@
+    1  git --version
+    2  git status
+    3  git config
+    4  git config --list
+    5  git config --global.core.name "Rachel Miles"
+    6  git config --global.user.name "Rachel Miles"
+    7  git config --global user.name "Rachel Miles"
+    8  git config --global user.email "rmiles7720@gmail.com"
+    9  git config
+   10  git config --list
+   13  git branch
+   14  git config get branch
+   16  git config --global init.defaultBranch main
+   17  git --version
+   26  git status
+   27  git init
+   29  git status
+   35  git status 
+   36  git add statistics.txt
+   37  git status
+   38  git commit -m 'create statistics file'
+   39  git status
+   40  git add history.txt
+   41  git commit -m 'create history file'
+   42  git status
+   43  git log
+   46  touch .gitignore
+   62  git branch
+   63  git branch music
+   64  git branch
+   65  git switch music
+   66  git branch
+   67  git log --oneline
+   69  git status
+   70  git add .
+   71  git commit - m "create music cirriculum file"
+   72  git commit -m "create music cirriculum file"
+   73  git switch main
+   74  git switch music
+   75  git switch main
+   76  git merge music
+   77  git branch -d music
+   78  git branch
+   79  git remote -v
+   80  git remote add origin git@github.com:rmiles7720/class-example.git
+   81  git remote -v
+   82  git push -u origin main
+   87  git config --global.core.name "Rachel Miles"
+   88  git config --global.user.name "Rachel Miles"
+   89  git config --global user.name "Rachel Miles"
+   90  git config --global user.email "rmiles7720@gmail.com"
+   91  git config --list
+  127  git init
+  128  git status
+  131  git status
+  132  git commit -m 'create statistics file'
+  133  git add statistics.txt
+  134  git add history.txt
+  135  git status
+  136  git commit -m 'create class file'
+  137  git status
+  138  git add statistics.txt
+  139  git commit -m 'create statistics class file'
+  140  git status
+  141  git add history.txt
+  142  git commit -m 'add history class cirriculum'
+  143  git add .
+  144  git status
+  146  touch .gitignore
+  147  git add .gitignore
+  148  git commit -m "create .gitignore"
+  149  git status
+  150  git branch music
+  152  git switch music
+  153  git log --oneline
+  155  git add music.txt
+  156  git commit -m "add empty music file"
+  157  git add music.txt
+  158  git status
+  159  git commit -m "changes to music file"
+  160  git branch orchestra
+  161  git switch orchestra
+  163  git add musicoptions.txt
+  164  git commit -m 'create music options file'
+  165  git switch music
+  166  git merge orchestra
+  167  git branch -d orchestra
+  168  git status
+  169  git switch main
+  170  git status
+  171  git merge music
+  172  git branch -d music
+  178  git remote add origin git@github.com:rmiles7720/Homework1.git 
+  179  git push -u origin main
+  180  history| grep "git" > git_commands.txt
